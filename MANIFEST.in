@@ -1,0 +1,17 @@
+include setup.py
+
+# C sources
+include src/libubqhash/internal.c
+include src/libubqhash/sha3.c
+include src/libubqhash/util.c
+include src/python/core.c
+
+# Headers
+include src/libubqhash/compiler.h
+include src/libubqhash/data_sizes.h
+include src/libubqhash/endian.h
+include src/libubqhash/ubqhash.h
+include src/libubqhash/fnv.h
+include src/libubqhash/internal.h
+include src/libubqhash/sha3.h
+include src/libubqhash/util.h
